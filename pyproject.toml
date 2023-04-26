@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pystocks"
+version = "0.1.0"
+description = "Python Package to track P&L after buying and selling stocks."
+authors = ["jjeg1979 <jjeg1979@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
